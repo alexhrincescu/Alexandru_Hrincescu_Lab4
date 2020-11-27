@@ -105,6 +105,7 @@ namespace Alexandru_Hrincescu_Lab4
             customerDataGrid.IsEnabled = true;
         }
 
+
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
             //adaugam directiva:
@@ -180,6 +181,7 @@ namespace Alexandru_Hrincescu_Lab4
             customerDataGrid.IsEnabled = true;
         }
 
+
         private void btnNext_Click(object sender, RoutedEventArgs e)
         {
             customerViewSource.View.MoveCurrentToNext();
@@ -188,6 +190,5 @@ namespace Alexandru_Hrincescu_Lab4
         {
             customerViewSource.View.MoveCurrentToPrevious();
         }
-
     }
 }
